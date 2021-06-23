@@ -156,3 +156,7 @@ table#report_list .report_title {
 tabale#report_list .report_action {
     width: 13%;
 }
+
+pre {   /* <pre>の中の文字列が小さい文字になる為、CSSの装飾で調整 */
+    font-family: "Hiragino Kaku Gothic Pri",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
+}
