@@ -85,7 +85,7 @@ public class LoginServlet extends HttpServlet {
         if(!check_result) {
             // 認証できなかったらログイン画面に戻る
             request.setAttribute("_token", request.getSession().getId());
-            request.setAttribute("haserror", true);
+            request.setAttribute("hasError", true);
             request.setAttribute("code", code);
 
             RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/login/login.jsp");
